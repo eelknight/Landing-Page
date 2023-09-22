@@ -1,0 +1,141 @@
+body{
+    font-family: Moon Dance, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction:column;
+    margin: 0;
+}
+.header-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: wheat;
+    gap: 64px;
+    margin-bottom: 32px;
+}
+.logo{
+    margin: 16px 0px;
+    width: 50px;
+    height:auto;
+    border-radius: 25px;
+}
+.nav-links{
+    margin: 16px 0px 85px;
+    justify-content: flex-end;
+    display: flex;
+    gap: 16px;
+}
+h1{
+    margin: 8px 0;
+    font-size: 48px;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 24px;
+}
+.header-image{
+    width: 400px;
+    height:auto;
+    margin-bottom: 64px;
+}
+.header-button{
+    max-width: 75px;
+    height: auto;
+    font-family: Moon Dance, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: wheat;
+    border-radius: 10px;
+    margin: 16px 0;
+}
+.header-text{
+    font-size: 24px;
+    margin: 0px;
+    max-width: 400px;
+    height: auto;
+    flex-wrap: wrap;
+}
+.pirate,
+.map,
+.parrot,
+.treasure{
+    border-radius: 8px;
+    display: flex;
+    width: 200px;
+    height: 250px; 
+}
+.content-text{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+.top{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.content-title{
+    display: flex;
+    justify-content: center;
+}
+.mid{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 16px;
+}
+.mid-text{
+    margin: 0;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-weight: 100;
+}
+.mid-bold{
+    display: flex;
+    margin: 8px 0;
+    font-weight: 900;
+    justify-content: flex-end;
+}
+.bottom{
+    gap: 64px;
+    justify-content: center;
+    display: flex;
+    background-color: #3882F6;
+    color: whitesmoke;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-weight: 900;
+}
+.bottom-text{
+    margin: 0 0 32px;
+    font-size: 20px;
+}
+.bottom-button-container{
+    display: flex;
+    align-items: center;
+}
+.bottom-button{
+    color: whitesmoke;
+    border-radius: 10px;
+    background-color:  #3882F6;
+    height: 30px;
+}
+.footer-text{
+    justify-content: center;
+    display: flex;
+    color: whitesmoke;
+    background-color: #1F2937;
+
+}
+.footer-image{
+    margin: 16px;
+    height: 25px;
+}
